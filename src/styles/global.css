@@ -6,8 +6,7 @@
 
 @font-face {
   font-family: "Fynd Sans Regular";
-  src: url("https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/6939228b24bc9d2815aaa51d_FyndSansTestVariable-Regular.ttf")
-    format("truetype");
+  src: url("../assets/fonts/FyndSansTestVariable-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -16,10 +15,8 @@
 @font-face {
   font-family: "Fynd Sans";
   src:
-    url("https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/682671d47b0b7621d9aea681_db726c343a261e2fff00427b0e2fbabb_FyndSans.otf")
-      format("opentype"),
-    url("https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/68285868c4f25816da75e5e9_db726c343a261e2fff00427b0e2fbabb_FyndSans.otf")
-      format("opentype");
+    url("../assets/fonts/FyndSans-Primary.otf") format("opentype"),
+    url("../assets/fonts/FyndSans-Fallback.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -27,8 +24,7 @@
 
 @font-face {
   font-family: "Manrope Variablefont Wght";
-  src: url("https://cdn.prod.website-files.com/67346243b9ab0f0e6568635a/67346247b9ab0f0e656878a7_Manrope-VariableFont_wght.ttf")
-    format("truetype");
+  src: url("../assets/fonts/Manrope-VariableFont-wght.ttf") format("truetype");
   font-weight: 200 800;
   font-style: normal;
   font-display: swap;
@@ -198,7 +194,7 @@ ol[class] {
 /* Marketing footer */
 @font-face {
   font-family: "Inter Display";
-  src: url("https://fynd-one-ds.vercel.app/assets/InterDisplay-Regular-B3PwPDRW.ttf") format("truetype");
+  src: url("../assets/fonts/InterDisplay-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -206,7 +202,7 @@ ol[class] {
 
 @font-face {
   font-family: "Inter Display";
-  src: url("https://fynd-one-ds.vercel.app/assets/InterDisplay-Medium-CXNIaaQ3.ttf") format("truetype");
+  src: url("../assets/fonts/InterDisplay-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -214,7 +210,7 @@ ol[class] {
 
 @font-face {
   font-family: "Inter Display";
-  src: url("https://fynd-one-ds.vercel.app/assets/InterDisplay-SemiBold-DAFIlMq0.ttf") format("truetype");
+  src: url("../assets/fonts/InterDisplay-SemiBold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -223,8 +219,8 @@ ol[class] {
 @font-face {
   font-family: "Fynd Sans Compact";
   src:
-    url("https://fynd-one-ds.vercel.app/assets/FyndSans-Compact-C2THYizw.woff2") format("woff2"),
-    url("https://fynd-one-ds.vercel.app/assets/FyndSans-Compact-DRnnChx4.woff") format("woff");
+    url("../assets/fonts/FyndSans-Compact.woff2") format("woff2"),
+    url("../assets/fonts/FyndSans-Compact.woff") format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
