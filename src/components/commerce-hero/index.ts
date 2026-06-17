@@ -1,0 +1,1 @@
+export { CommerceHero } from './CommerceHero';

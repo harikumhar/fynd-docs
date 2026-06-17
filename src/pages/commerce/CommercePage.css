@@ -1,0 +1,1206 @@
+/* Commerce page */
+.commerce-page {
+  min-height: 100vh;
+  background: #ffffff;
+}
+
+.commerce-page__main {
+  display: block;
+}
+
+.commerce-page .fds-footer {
+  min-height: auto;
+}
+
+/* Commerce header */
+.commerce-header {
+  position: sticky;
+  top: 0;
+  z-index: 88;
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0 0.0625rem 0.0625rem rgba(0, 0, 0, 0.05);
+  color: #051e39;
+  font-family: "Manrope Variablefont Wght", Arial, sans-serif;
+}
+
+.commerce-header__container {
+  display: flex;
+  width: 100%;
+  max-width: 82.5rem;
+  height: 3.5rem;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 1rem;
+}
+
+.commerce-header__logo-link {
+  display: flex;
+  min-width: 10.6rem;
+  height: 100%;
+  align-items: center;
+  color: inherit;
+  text-decoration: none;
+}
+
+.commerce-header__logo {
+  width: 10.6rem;
+  height: 2.3125rem;
+  max-width: none;
+}
+
+.commerce-header__nav {
+  display: flex;
+  height: 2.5rem;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 0.5rem;
+  border-radius: 2.75rem;
+  background: #f2f8fe;
+}
+
+.commerce-header__nav-link {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.5rem 1rem;
+  border-radius: 2.75rem;
+  color: #051e39;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.commerce-header__nav-link:hover,
+.commerce-header__nav-link--active,
+.commerce-header__nav-item:hover .commerce-header__nav-trigger,
+.commerce-header__nav-item:focus-within .commerce-header__nav-trigger {
+  color: #198f8f;
+}
+
+.commerce-header__nav-item {
+  position: relative;
+  height: 100%;
+}
+
+.commerce-header__nav-trigger {
+  cursor: pointer;
+}
+
+.commerce-header__chevron {
+  display: flex;
+  width: 1rem;
+  height: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.commerce-header__dropdown {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: min(25.6rem, calc(100vw - 2rem));
+  padding-top: 0.5rem;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(-50%) translateY(-0.25rem);
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease;
+}
+
+.commerce-header__nav-item:hover .commerce-header__dropdown,
+.commerce-header__nav-item:focus-within .commerce-header__dropdown,
+.commerce-header__dropdown[data-open="true"] {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateX(-50%) translateY(0);
+}
+
+.commerce-header__dropdown-card {
+  display: grid;
+  grid-template-columns: 14.4rem minmax(0, 1fr);
+  gap: 0.6rem;
+  width: 100%;
+  padding: 0.6rem;
+  border: 0.0625rem solid #d1e8ff;
+  border-top: 0;
+  border-radius: 0 0 1.5rem 1.5rem;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+.commerce-header__product-block {
+  position: relative;
+  padding: 0.6rem;
+  border-radius: 0.6rem;
+  background: #f2f8fe;
+}
+
+.commerce-header__product {
+  display: grid;
+  grid-template-columns: 0.8rem minmax(0, 1fr);
+  gap: 0.6rem;
+  align-items: start;
+  padding: 0.6rem 0.8rem;
+  text-decoration: none;
+}
+
+.commerce-header__product-icon {
+  width: 0.8rem;
+  height: 0.8rem;
+  margin-top: 0;
+}
+
+.commerce-header__product-title {
+  color: #130a35;
+  font-family: "Manrope Variablefont Wght", Arial, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.commerce-header__product-copy {
+  margin-top: 0.125rem;
+  color: #506986;
+  font-family: "Manrope Variablefont Wght", Arial, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.commerce-header__doc-links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.4rem;
+  padding: 0.4rem;
+  border-radius: 0.6rem;
+  background: #ffffff;
+}
+
+.commerce-header__dropdown-side {
+  display: flex;
+  flex-direction: column;
+}
+
+.commerce-header__dropdown-link,
+.commerce-header__platform-link {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.528rem 0.704rem;
+  border-radius: 0.4rem;
+  color: #5b5c5d;
+  font-family: "Manrope Variablefont Wght", Arial, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.28rem;
+  text-decoration: none;
+  transition:
+    background-color 0.2s ease;
+}
+
+.commerce-header__dropdown-link:hover,
+.commerce-header__platform-link:hover {
+  background: #d1e8ff;
+}
+
+.commerce-header__dropdown-label {
+  padding: 0.6rem 0.704rem;
+  color: #728aa7;
+  font-family: "Manrope Variablefont Wght", Arial, sans-serif;
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.066rem;
+  line-height: 1.28rem;
+  text-transform: uppercase;
+}
+
+.commerce-header__platform-icon {
+  width: 0.8rem;
+  height: 0.8rem;
+  flex: 0 0 auto;
+}
+
+.commerce-header__card-notch {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #ffffff;
+  pointer-events: none;
+}
+
+.commerce-header__card-notch svg {
+  width: 100%;
+  height: 100%;
+}
+
+.commerce-header__action {
+  width: 6.375rem;
+  height: 2.5rem;
+  border-radius: 100vw;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.commerce-header__menu {
+  display: none;
+  width: 2rem;
+  height: 2rem;
+  align-items: center;
+  justify-content: center;
+  color: #051e39;
+}
+
+.commerce-header__menu svg {
+  width: 100%;
+  height: 100%;
+}
+
+.commerce-header__mobile-panel {
+  display: none;
+}
+
+@media (max-width: 61.9375rem) {
+  .commerce-header__container {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+
+  .commerce-header__logo-link {
+    min-width: 12.91875rem;
+  }
+
+  .commerce-header__logo {
+    width: 8.53125rem;
+    height: 2.3125rem;
+  }
+
+  .commerce-header__nav {
+    display: none;
+  }
+
+  .commerce-header__action.fynd__button {
+    width: auto;
+    min-height: 2rem;
+    height: auto;
+    margin-left: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    font-size: 0.875rem;
+  }
+
+  .commerce-header__menu {
+    display: flex;
+    margin-left: 1rem;
+  }
+
+  .commerce-header__mobile-panel {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    display: grid;
+    max-height: calc(100vh - 3.5rem);
+    padding: 1rem 1.5rem 1.5rem;
+    border-top: 0.0625rem solid #f2f2f2;
+    background: #ffffff;
+    box-shadow: 0 1.5rem 2.5rem rgba(5, 30, 57, 0.12);
+    opacity: 0;
+    overflow-y: auto;
+    pointer-events: none;
+    transform: translateY(-0.5rem);
+    transition:
+      opacity 0.2s ease,
+      transform 0.2s ease;
+  }
+
+  .commerce-header__mobile-panel[data-open="true"] {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+  }
+
+  .commerce-header__mobile-link,
+  .commerce-header__mobile-sub-link {
+    display: flex;
+    min-height: 2.75rem;
+    align-items: center;
+    border-bottom: 0.0625rem solid #f2f2f2;
+    color: #051e39;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.4;
+    text-decoration: none;
+  }
+
+  .commerce-header__mobile-link--active {
+    color: #198f8f;
+  }
+
+  .commerce-header__mobile-group {
+    display: grid;
+    padding-top: 0.75rem;
+  }
+
+  .commerce-header__mobile-label {
+    margin-bottom: 0.25rem;
+    color: #728aa7;
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+
+  .commerce-header__mobile-sub-link {
+    min-height: 2.5rem;
+    padding-left: 0.75rem;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 29.9375rem) {
+  .commerce-header__container {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .commerce-header__logo {
+    width: 8.53125rem;
+    height: 2.3125rem;
+  }
+}
+
+/* Commerce hero */
+.commerce-hero {
+  position: relative;
+  z-index: 1;
+  background: #ffffff;
+  color: #101319;
+  font-family: Inter, "Inter Display", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.commerce-hero__page-padding {
+  padding: 3.5rem 2.5rem;
+}
+
+.commerce-hero__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+  text-align: center;
+}
+
+.commerce-hero__eyebrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  margin-bottom: -1.25rem;
+  padding: 0.25rem 1rem;
+  border-radius: 1.5rem;
+  background: rgba(248, 248, 249, 0.8);
+  color: #5b5c5d;
+  font-family: Inter, "Inter Display", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0;
+}
+
+.commerce-hero__eyebrow-dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  flex: 0 0 auto;
+  border-radius: 6rem;
+  background: #5c98f7;
+}
+
+.commerce-hero__text {
+  display: flex;
+  max-width: 60rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.commerce-hero__title {
+  font-family: "Fynd Sans", "Fynd Sans Regular", Inter, system-ui, sans-serif;
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: 0;
+  color: #101319;
+}
+
+.commerce-hero__description {
+  max-width: none;
+  color: #5b5c5d;
+  font-family: "Manrope Variablefont Wght", Arial, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.45;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+@media (max-width: 61.9375rem) {
+  .commerce-hero__title {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 47.9375rem) {
+  .commerce-hero__page-padding {
+    padding: 3.5rem 1.5rem;
+  }
+
+  .commerce-hero__content {
+    gap: 1.5rem;
+  }
+
+  .commerce-hero__eyebrow {
+    margin-bottom: -0.75rem;
+    font-size: 0.75rem;
+  }
+
+  .commerce-hero__title {
+    font-size: 2.5rem;
+  }
+
+  .commerce-hero__description {
+    font-size: 1rem;
+    white-space: normal;
+  }
+}
+
+@media (max-width: 29.9375rem) {
+  .commerce-hero__page-padding {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .commerce-hero__title {
+    font-size: 2rem;
+  }
+
+  .commerce-hero__description {
+    font-size: 0.9375rem;
+  }
+}
+
+/* Commerce build */
+.commerce-build {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  background: #ffffff;
+  color: #051e39;
+  overflow: hidden;
+}
+
+.commerce-build__heading-pad,
+.commerce-build__cards-pad {
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+}
+
+.commerce-build__heading {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-width: 60rem;
+  margin-bottom: 2.5rem;
+}
+
+.commerce-build__title {
+  color: #051e39;
+  font-family: "Fynd Sans", "Fynd Sans Regular", Inter, system-ui, sans-serif;
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: 0;
+}
+
+.commerce-build__description {
+  color: #051e39;
+  font-family: "Manrope Variablefont Wght", Arial, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.45;
+  letter-spacing: 0;
+}
+
+.commerce-build__scroller {
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none;
+}
+
+.commerce-build__scroller::-webkit-scrollbar {
+  display: none;
+}
+
+.commerce-build__cards {
+  display: flex;
+  width: max-content;
+  gap: 1.25rem;
+  margin-bottom: 5rem;
+  padding-right: 1.25rem;
+}
+
+.commerce-build__card {
+  display: flex;
+  width: 37.5rem;
+  min-height: 38.3671875rem;
+  flex-direction: column;
+  overflow: hidden;
+  border: 0.0625rem solid #dddddd;
+  border-radius: 1rem;
+  background: #ffffff;
+  box-shadow: 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.03);
+}
+
+.commerce-build__image-wrap {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  overflow: hidden;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  background: #b2b2b2;
+}
+
+.commerce-build__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.commerce-build__card-content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 1.5rem;
+}
+
+.commerce-build__card-title {
+  margin-bottom: 0.5rem;
+  color: #101319;
+  font-family: "Manrope Variablefont Wght", Arial, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 0;
+}
+
+.commerce-build__card-description {
+  color: #5b5c5d;
+  font-family: "Manrope Variablefont Wght", Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.55;
+  letter-spacing: 0;
+}
+
+.commerce-build__actions {
+  display: flex;
+  flex: 1;
+  align-items: flex-end;
+  gap: 0.75rem;
+  padding-top: 1rem;
+}
+
+@media (max-width: 61.9375rem) {
+  .commerce-build__title {
+    font-size: 3rem;
+  }
+
+  .commerce-build__card {
+    width: 20rem;
+    min-height: auto;
+  }
+
+  .commerce-build__actions {
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 47.9375rem) {
+  .commerce-build {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .commerce-build__heading-pad,
+  .commerce-build__cards-pad {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+  }
+
+  .commerce-build__heading {
+    margin-bottom: 2rem;
+  }
+
+  .commerce-build__title {
+    font-size: 2.5rem;
+  }
+
+  .commerce-build__description {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 29.9375rem) {
+  .commerce-build__cards {
+    width: auto;
+    flex-wrap: wrap;
+    padding-right: 0;
+  }
+
+  .commerce-build__card {
+    width: 100%;
+  }
+
+  .commerce-build__title {
+    font-size: 2rem;
+  }
+}
+
+/* Commerce development kit */
+.commerce-development-kit {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+  background: #f8f8f9;
+  color: #051e39;
+}
+
+.commerce-development-kit__page-padding {
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+}
+
+.commerce-development-kit__header {
+  display: flex;
+  max-width: 60rem;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding-bottom: 3.5rem;
+}
+
+.commerce-development-kit__title {
+  color: #051e39;
+  font-family: "Fynd Sans", "Fynd Sans Regular", Inter, system-ui, sans-serif;
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: 0;
+}
+
+.commerce-development-kit__description {
+  color: #051e39;
+  font-family: "Manrope Variablefont Wght", Arial, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.45;
+  letter-spacing: 0;
+}
+
+.commerce-development-kit__cards {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+.commerce-development-kit__card {
+  display: flex;
+  min-height: 20.75rem;
+  flex-direction: column;
+  padding: 2rem;
+  border: 0.0625rem solid #e3e3e3;
+  border-radius: 1rem;
+  background: #ffffff;
+  color: #051e39;
+}
+
+.commerce-development-kit__icon {
+  width: 2rem;
+  height: 2rem;
+  margin-bottom: 2rem;
+}
+
+.commerce-development-kit__card-title {
+  margin: 0 0 1rem;
+  color: #101319;
+  font-family: "Manrope Variablefont Wght", Arial, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 0;
+}
+
+.commerce-development-kit__card-description {
+  margin: 0 0 2rem;
+  color: #5b5c5d;
+  font-family: "Manrope Variablefont Wght", Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.55;
+  letter-spacing: 0;
+}
+
+.commerce-development-kit__card .fynd__button {
+  align-self: flex-start;
+  margin-top: auto;
+}
+
+@media (max-width: 61.9375rem) {
+  .commerce-development-kit__title {
+    font-size: 3rem;
+  }
+
+  .commerce-development-kit__cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 47.9375rem) {
+  .commerce-development-kit {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .commerce-development-kit__page-padding {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+  }
+
+  .commerce-development-kit__header {
+    padding-bottom: 2rem;
+  }
+
+  .commerce-development-kit__title {
+    font-size: 2.5rem;
+  }
+
+  .commerce-development-kit__description {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 29.9375rem) {
+  .commerce-development-kit__cards {
+    grid-template-columns: 1fr;
+  }
+
+  .commerce-development-kit__title {
+    font-size: 2rem;
+  }
+}
+
+/* Commerce marketplace */
+.commerce-marketplace {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+  background: #f8f8f9;
+  color: #051e39;
+}
+
+.commerce-marketplace__page-padding {
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+}
+
+.commerce-marketplace__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.commerce-marketplace__header {
+  display: flex;
+  max-width: 60rem;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding-bottom: 3.5rem;
+}
+
+.commerce-marketplace__title {
+  color: #051e39;
+  font-family: "Fynd Sans", "Fynd Sans Regular", Inter, system-ui, sans-serif;
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: 0;
+}
+
+.commerce-marketplace__description {
+  color: #051e39;
+  font-family: "Manrope Variablefont Wght", Arial, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.45;
+  letter-spacing: 0;
+}
+
+.commerce-marketplace__rows {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.commerce-marketplace__row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: center;
+}
+
+.commerce-marketplace__row--reversed .commerce-marketplace__image-wrap {
+  order: -1;
+}
+
+.commerce-marketplace__text {
+  display: flex;
+  width: 100%;
+  max-width: 32rem;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1.5rem;
+  padding-right: 5rem;
+}
+
+.commerce-marketplace__row--reversed .commerce-marketplace__text {
+  max-width: none;
+  padding-right: 0;
+  padding-left: 7.5rem;
+}
+
+.commerce-marketplace__copy {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.commerce-marketplace__row-title {
+  color: #051e39;
+  font-family: "Fynd Sans", "Fynd Sans Regular", Inter, system-ui, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: 0;
+}
+
+.commerce-marketplace__row-description {
+  color: #5b5c5d;
+  font-family: "Manrope Variablefont Wght", Arial, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.45;
+  letter-spacing: 0;
+}
+
+.commerce-marketplace__image-wrap {
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.commerce-marketplace__image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (max-width: 61.9375rem) {
+  .commerce-marketplace__title {
+    font-size: 3rem;
+  }
+
+  .commerce-marketplace__row-title {
+    font-size: 2rem;
+  }
+
+  .commerce-marketplace__text,
+  .commerce-marketplace__row--reversed .commerce-marketplace__text {
+    padding-right: 2rem;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 47.9375rem) {
+  .commerce-marketplace {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .commerce-marketplace__page-padding {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+  }
+
+  .commerce-marketplace__header {
+    padding-bottom: 2rem;
+  }
+
+  .commerce-marketplace__title {
+    font-size: 2.5rem;
+  }
+
+  .commerce-marketplace__description,
+  .commerce-marketplace__row-description {
+    font-size: 1rem;
+  }
+
+  .commerce-marketplace__rows {
+    gap: 3rem;
+  }
+
+  .commerce-marketplace__row {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .commerce-marketplace__row--reversed .commerce-marketplace__image-wrap {
+    order: 0;
+  }
+
+  .commerce-marketplace__text,
+  .commerce-marketplace__row--reversed .commerce-marketplace__text {
+    max-width: none;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 29.9375rem) {
+  .commerce-marketplace__title {
+    font-size: 2rem;
+  }
+
+  .commerce-marketplace__row-title {
+    font-size: 1.5rem;
+  }
+}
+
+/* Commerce ecosystem */
+.commerce-ecosystem {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+  background: #f8f8f9;
+  color: #051e39;
+}
+
+.commerce-ecosystem__page-padding {
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+}
+
+.commerce-ecosystem__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.commerce-ecosystem__header {
+  display: flex;
+  max-width: 60rem;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding-bottom: 3.5rem;
+}
+
+.commerce-ecosystem__title {
+  color: #051e39;
+  font-family: "Fynd Sans", "Fynd Sans Regular", Inter, system-ui, sans-serif;
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: 0;
+}
+
+.commerce-ecosystem__description {
+  color: #051e39;
+  font-family: "Manrope Variablefont Wght", Arial, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.45;
+  letter-spacing: 0;
+}
+
+.commerce-ecosystem__cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+.commerce-ecosystem__card {
+  min-height: 16.25rem;
+  padding: 2rem;
+  border: 0.0625rem solid #e3e3e3;
+  border-radius: 1rem;
+  background: #ffffff;
+  color: #051e39;
+}
+
+.commerce-ecosystem__icon {
+  width: 2rem;
+  height: 2rem;
+  margin-bottom: 2rem;
+  object-fit: contain;
+}
+
+.commerce-ecosystem__card-title {
+  margin: 0 0 0.5rem;
+  color: #101319;
+  font-family: "Manrope Variablefont Wght", Arial, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 0;
+}
+
+.commerce-ecosystem__card-description {
+  margin: 0;
+  color: #5b5c5d;
+  font-family: "Manrope Variablefont Wght", Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.55;
+  letter-spacing: 0;
+}
+
+@media (max-width: 61.9375rem) {
+  .commerce-ecosystem__title {
+    font-size: 3rem;
+  }
+
+  .commerce-ecosystem__cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 47.9375rem) {
+  .commerce-ecosystem {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .commerce-ecosystem__page-padding {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+  }
+
+  .commerce-ecosystem__header {
+    padding-bottom: 2rem;
+  }
+
+  .commerce-ecosystem__title {
+    font-size: 2.5rem;
+  }
+
+  .commerce-ecosystem__description {
+    font-size: 1rem;
+  }
+
+  .commerce-ecosystem__cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 29.9375rem) {
+  .commerce-ecosystem__title {
+    font-size: 2rem;
+  }
+}
+
+/* Commerce partner CTA */
+.commerce-partner-cta {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background-image: url("https://cdn.pixelbin.io/v2/nameless-waterfall-bf6e98/original/Fynd_one/Doc_Images/049_69a5531a3cc1fa93817d279c_CTA-Banner.avif");
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: auto;
+  color: #051e39;
+}
+
+.commerce-partner-cta__page-padding {
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+
+.commerce-partner-cta__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.commerce-partner-cta__copy {
+  display: flex;
+  max-width: 60rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  text-align: center;
+}
+
+.commerce-partner-cta__title {
+  color: #051e39;
+  font-family: "Fynd Sans", "Fynd Sans Regular", Inter, system-ui, sans-serif;
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: 0;
+}
+
+.commerce-partner-cta__description {
+  color: #051e39;
+  font-family: "Manrope Variablefont Wght", Arial, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.45;
+  letter-spacing: 0;
+}
+
+@media (max-width: 61.9375rem) {
+  .commerce-partner-cta__title {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 47.9375rem) {
+  .commerce-partner-cta {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .commerce-partner-cta__page-padding {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+  }
+
+  .commerce-partner-cta__title {
+    font-size: 2.5rem;
+  }
+
+  .commerce-partner-cta__description {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 29.9375rem) {
+  .commerce-partner-cta__title {
+    font-size: 2rem;
+  }
+}

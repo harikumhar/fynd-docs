@@ -1,0 +1,43 @@
+
+function ChevronRightIcon() {
+  return (
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M11.3981 10.0025L6.95013 5.55483C6.79907 5.40359 6.72172 5.21349 6.71808 4.98453C6.71462 4.75576 6.79197 4.5622 6.95013 4.40386C7.10847 4.2457 7.3003 4.16663 7.52561 4.16663C7.75093 4.16663 7.94275 4.2457 8.10109 4.40386L13.0088 9.31158C13.1109 9.41387 13.183 9.5217 13.225 9.63509C13.2671 9.74847 13.2881 9.87096 13.2881 10.0025C13.2881 10.1341 13.2671 10.2566 13.225 10.37C13.183 10.4834 13.1109 10.5912 13.0088 10.6935L8.10109 15.6012C7.94985 15.7523 7.75975 15.8296 7.5308 15.8333C7.30202 15.8367 7.10847 15.7594 6.95013 15.6012C6.79197 15.4429 6.71289 15.2511 6.71289 15.0257C6.71289 14.8004 6.79197 14.6086 6.95013 14.4503L11.3981 10.0025Z"
+        fill="currentColor"
+      />
+    </svg>
+  );
+}
+
+export function CommercePartnerCta() {
+  return (
+    <section className="commerce-partner-cta" aria-labelledby="commerce-partner-cta-title">
+      <div className="commerce-partner-cta__page-padding">
+        <div className="fds__container">
+          <div className="commerce-partner-cta__content">
+            <div className="commerce-partner-cta__copy">
+              <h2 className="commerce-partner-cta__title" id="commerce-partner-cta-title">
+                Connect with other Partners
+              </h2>
+              <p className="commerce-partner-cta__description">
+                Join our community forum to discuss, collaborate, and network with other partners
+              </p>
+            </div>
+            <a
+              className="fynd__button fynd__button-primary"
+              href="https://community.fynd.com/c/fynd-platform/5"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span>Learn more</span>
+              <span className="fynd__button-icon" aria-hidden="true">
+                <ChevronRightIcon />
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}

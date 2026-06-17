@@ -1,0 +1,779 @@
+/* Docs page */
+.docs-page {
+  min-height: 100vh;
+  background: #0e0e0e;
+}
+
+.docs-page__main {
+  display: block;
+}
+
+.docs-page .fds-footer {
+  min-height: auto;
+}
+
+/* Docs hero */
+.docs-hero {
+  position: relative;
+  overflow: hidden;
+  color: #ffffff;
+  background: #101319;
+  font-family: Inter, "Inter Display", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.docs-hero__page-padding {
+  padding: 5rem 2.5rem;
+}
+
+.docs-hero__container {
+  position: relative;
+}
+
+.docs-hero__layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.docs-hero__copy {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  max-width: 40.5rem;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.docs-hero__title {
+  margin-bottom: 0.75rem;
+  font-family: "Fynd Sans Compact", "Fynd Sans Medium", Inter, system-ui, sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+
+.docs-hero__description {
+  max-width: 34rem;
+  font-family: Inter, "Inter Display", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0;
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.docs-hero__media {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 2rem;
+  background: #0c315a;
+}
+
+.docs-hero__image {
+  width: 100%;
+  aspect-ratio: 649 / 220;
+  object-fit: cover;
+}
+
+.docs-hero__mobile-notch {
+  display: none;
+}
+
+@media (max-width: 61.9375rem) {
+  .docs-hero__title {
+    font-size: 2.375rem;
+  }
+}
+
+@media (max-width: 47.9375rem) {
+  .docs-hero {
+    overflow: visible;
+  }
+
+  .docs-hero__page-padding {
+    padding: 3rem 1.5rem;
+  }
+
+  .docs-hero__layout {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.5rem;
+  }
+
+  .docs-hero__copy {
+    max-width: none;
+  }
+
+  .docs-hero__title {
+    margin-bottom: 0.75rem;
+    font-size: 2rem;
+  }
+
+  .docs-hero__description {
+    max-width: none;
+    font-size: 0.9375rem;
+  }
+
+  .docs-hero__media {
+    height: 7.3125rem;
+    min-height: 7.3125rem;
+    max-height: 7.3125rem;
+    border-radius: 1.5rem;
+  }
+
+  .docs-hero__image {
+    height: 100%;
+  }
+
+  .docs-hero__mobile-notch {
+    position: absolute;
+    right: 0;
+    bottom: -0.0625rem;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 3rem;
+    color: #ffffff;
+  }
+}
+
+/* Docs directory */
+.docs-directory {
+  background: #ffffff;
+  color: #130a35;
+  font-family: Inter, "Inter Display", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  padding: 3.75rem 2.5rem 6.25rem;
+}
+
+.docs-directory__container {
+  position: relative;
+}
+
+.docs-directory__sr-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  white-space: nowrap;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.docs-directory__sections {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.docs-directory__section {
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid #d1e8ff;
+}
+
+.docs-directory__section--last {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.docs-directory__section-title {
+  margin-bottom: 2.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+
+.docs-directory__grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.docs-directory__card {
+  display: grid;
+  grid-template-columns: 4rem minmax(0, 1fr);
+  gap: 1rem;
+  align-items: center;
+  padding: 0.75rem;
+  color: #41434c;
+  text-decoration: none;
+  background: #f2f8fe;
+  border-radius: 1rem;
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.docs-directory__card:hover {
+  background: #d1e8ff;
+  transform: translateY(-1px);
+}
+
+.docs-directory__card--disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.docs-directory__icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+.docs-directory__card-content {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.docs-directory__card-title {
+  color: #130a35;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0;
+}
+
+.docs-directory__card-description {
+  color: #506986;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0;
+}
+
+@media (max-width: 61.9375rem) {
+  .docs-directory__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 47.9375rem) {
+  .docs-directory__container {
+    position: relative;
+  }
+
+  .docs-directory {
+    padding: 3rem 1.5rem;
+  }
+
+  .docs-directory__sections {
+    gap: 2rem;
+  }
+
+  .docs-directory__section {
+    padding-bottom: 2rem;
+  }
+
+  .docs-directory__section-title {
+    margin-bottom: 2rem;
+  }
+
+  .docs-directory__grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.75rem;
+  }
+
+  .docs-directory__card {
+    grid-template-columns: 4rem minmax(0, 1fr);
+    padding: 0.75rem;
+    gap: 0.75rem;
+  }
+
+  .docs-directory__icon {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .docs-directory__card-title {
+    font-size: 0.875rem;
+  }
+
+  .docs-directory__card-description {
+    font-size: 0.75rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .docs-directory__card {
+    transition: none;
+  }
+
+  .docs-directory__card:hover {
+    transform: none;
+  }
+}
+
+/* Docs developer */
+.docs-developer {
+  padding: 0 2.5rem 6.25rem;
+  background: #ffffff;
+  color: #051e39;
+  font-family: Inter, "Inter Display", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.docs-developer__panel {
+  padding: 3rem;
+  border-radius: 2.5rem;
+  background: #e8fcfb;
+}
+
+.docs-developer__title {
+  margin-bottom: 2.5rem;
+  font-family: "Fynd Sans Compact", Inter, system-ui, sans-serif;
+  font-size: 2.25rem;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+
+.docs-developer__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.docs-developer__card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 2rem 1.75rem;
+  color: #051e39;
+  text-decoration: none;
+  background: #ffffff;
+  border-radius: 2rem;
+}
+
+.docs-developer__card-head {
+  display: grid;
+  grid-template-columns: 4.375rem minmax(0, 1fr);
+  gap: 1rem;
+  align-items: center;
+}
+
+.docs-developer__icon-wrap {
+  display: inline-flex;
+  width: 4.375rem;
+  height: 4.375rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100vw;
+  background: #e6fcfb;
+  transition: background-color 0.2s ease;
+}
+
+.docs-developer__card:hover .docs-developer__icon-wrap {
+  background: #d1e8ff;
+}
+
+.docs-developer__icon {
+  width: 4.375rem;
+  height: 4.375rem;
+  border-radius: 100vw;
+  object-fit: contain;
+}
+
+.docs-developer__card-title {
+  color: #0000ee;
+  font-size: 1.375rem;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0;
+}
+
+.docs-developer__description {
+  display: block;
+  max-width: 34rem;
+  padding-right: 3rem;
+  color: #051e39;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0;
+}
+
+.docs-developer__arrow {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  display: inline-flex;
+  width: 2.125rem;
+  height: 2.125rem;
+  align-items: center;
+  justify-content: center;
+  color: #12134d;
+  border: 1px solid #728aa7;
+  border-radius: 100vw;
+  overflow: hidden;
+}
+
+.docs-developer__arrow-track {
+  position: relative;
+  display: flex;
+  width: 1rem;
+  height: 1rem;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.docs-developer__arrow-icon {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.875rem;
+  transition: transform 0.3s ease;
+}
+
+.docs-developer__arrow-icon--primary {
+  transform: translate3d(0, 0, 0) rotate(-45deg);
+}
+
+.docs-developer__arrow-icon--secondary {
+  transform: translate3d(-15px, 10px, 0) rotate(-45deg);
+}
+
+.docs-developer__card:hover .docs-developer__arrow-icon--primary {
+  transform: translate3d(15px, -10px, 0) rotate(-45deg);
+}
+
+.docs-developer__card:hover .docs-developer__arrow-icon--secondary {
+  transform: translate3d(0, 0, 0) rotate(-45deg);
+}
+
+@media (max-width: 61.9375rem) {
+  .docs-developer__panel {
+    padding: 1.875rem;
+  }
+
+  .docs-developer__title {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 47.9375rem) {
+  .docs-developer {
+    padding: 0 1.5rem 3rem;
+  }
+
+  .docs-developer__panel {
+    padding: 2.8125rem 1.5rem 3.5rem;
+    border-radius: 1.5rem;
+  }
+
+  .docs-developer__grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.75rem;
+  }
+
+  .docs-developer__card {
+    padding: 1rem;
+    border-radius: 1.5rem;
+  }
+
+  .docs-developer__card-head {
+    grid-template-columns: 3.5rem minmax(0, 1fr);
+    gap: 1rem;
+  }
+
+  .docs-developer__icon-wrap,
+  .docs-developer__icon {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .docs-developer__card-title {
+    font-size: 1.125rem;
+  }
+
+  .docs-developer__description {
+    padding-right: 0;
+    font-size: 0.75rem;
+  }
+
+  .docs-developer__arrow {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .docs-developer__icon-wrap,
+  .docs-developer__arrow-icon {
+    transition: none;
+  }
+
+  .docs-developer__card:hover .docs-developer__arrow-icon--primary {
+    transform: translate3d(0, 0, 0) rotate(-45deg);
+  }
+
+  .docs-developer__card:hover .docs-developer__arrow-icon--secondary {
+    transform: translate3d(-15px, 10px, 0) rotate(-45deg);
+  }
+}
+
+/* Docs commerce CTA */
+.docs-commerce-cta {
+  position: relative;
+  overflow: hidden;
+  padding: 6.25rem 2.5rem;
+  background: #ffffff;
+  color: #051e38;
+  font-family: Inter, "Inter Display", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.docs-commerce-cta__wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 16rem;
+}
+
+.docs-commerce-cta__content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  max-width: 38rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  text-align: center;
+}
+
+.docs-commerce-cta__title {
+  color: #051e38;
+  font-family: "Fynd Sans Regular", "Fynd Sans Compact", Inter, system-ui, sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+
+.docs-commerce-cta__title-accent {
+  font-weight: 600;
+}
+
+.docs-commerce-cta__button {
+  padding: 0.75rem 1.25rem;
+  border-radius: 100vw;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.docs-commerce-cta__button-icon {
+  display: inline-flex;
+  width: 1.25rem;
+  height: 1.25rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.docs-commerce-cta__button-icon svg {
+  width: 100%;
+}
+
+.docs-commerce-cta__image {
+  position: absolute;
+  z-index: 0;
+  display: block;
+  opacity: 0;
+  animation: docs-commerce-cta-image-in 0.7s ease-out forwards;
+  pointer-events: none;
+  user-select: none;
+}
+
+.docs-commerce-cta__image--first {
+  top: -4rem;
+  left: 5.5rem;
+  width: 5.69rem;
+  animation-delay: 0.05s;
+}
+
+.docs-commerce-cta__image--second {
+  bottom: 1.38rem;
+  left: -5%;
+  width: 10rem;
+  animation-delay: 0.25s;
+}
+
+.docs-commerce-cta__image--third {
+  top: -3.48rem;
+  right: 9.5rem;
+  width: 5.75rem;
+  animation-delay: 0.15s;
+}
+
+.docs-commerce-cta__image--fourth {
+  top: -0.69rem;
+  right: -6.69rem;
+  width: 9.31rem;
+  animation-delay: 0.35s;
+}
+
+.docs-commerce-cta__image--fifth {
+  right: 3.69rem;
+  bottom: -0.25rem;
+  width: 7.25rem;
+  animation-delay: 0.45s;
+}
+
+@keyframes docs-commerce-cta-image-in {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 1rem, 0) scale(0.94);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+}
+
+@media (max-width: 61.9375rem) {
+  .docs-commerce-cta {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .docs-commerce-cta__title {
+    font-size: 2rem;
+  }
+
+  .docs-commerce-cta__image--first {
+    top: -4.8rem;
+    left: 4rem;
+    width: 3.75rem;
+  }
+
+  .docs-commerce-cta__image--second {
+    bottom: 0;
+    left: -4.8rem;
+    width: 5rem;
+  }
+
+  .docs-commerce-cta__image--third {
+    top: -5.3rem;
+    width: 3.75rem;
+  }
+
+  .docs-commerce-cta__image--fourth,
+  .docs-commerce-cta__image--fifth {
+    width: 5rem;
+  }
+
+  .docs-commerce-cta__image--fourth {
+    right: -2.69rem;
+  }
+
+  .docs-commerce-cta__image--fifth {
+    bottom: -2rem;
+  }
+}
+
+@media (max-width: 47.9375rem) {
+  .docs-commerce-cta {
+    padding: 3.5rem 1.5rem;
+  }
+
+  .docs-commerce-cta__wrapper {
+    min-height: 12rem;
+  }
+
+  .docs-commerce-cta__title {
+    font-size: 2rem;
+  }
+
+  .docs-commerce-cta__button {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.875rem;
+    line-height: 1.2;
+  }
+
+  .docs-commerce-cta__image--first {
+    top: -2.9rem;
+    left: 2.1rem;
+    width: 2.5rem;
+  }
+
+  .docs-commerce-cta__image--second {
+    width: 6rem;
+  }
+
+  .docs-commerce-cta__image--third {
+    top: -2.9rem;
+    right: 7.1rem;
+    bottom: auto;
+    left: auto;
+    width: 2.5rem;
+  }
+
+  .docs-commerce-cta__image--fourth {
+    width: 5.3rem;
+  }
+
+  .docs-commerce-cta__image--fifth {
+    width: 4rem;
+  }
+}
+
+@media (max-width: 29.9375rem) {
+  .docs-commerce-cta__image--first {
+    display: block;
+    top: -1.8rem;
+    left: -2.8rem;
+  }
+
+  .docs-commerce-cta__image--second {
+    left: -0.9rem;
+    width: 4.88rem;
+  }
+
+  .docs-commerce-cta__image--third {
+    top: -15%;
+    right: -14%;
+    bottom: auto;
+    left: auto;
+  }
+
+  .docs-commerce-cta__image--fourth {
+    display: block;
+    top: auto;
+    right: -5%;
+    bottom: 0;
+    left: auto;
+    width: 4.63rem;
+  }
+
+  .docs-commerce-cta__image--fifth {
+    display: none;
+    right: -3.3rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .docs-commerce-cta__image {
+    opacity: 1;
+    animation: none;
+  }
+
+  .docs-commerce-cta__button {
+    transition: none;
+  }
+}

@@ -1,0 +1,815 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Fynd Sans Regular";
+  src: url("https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/6939228b24bc9d2815aaa51d_FyndSansTestVariable-Regular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fynd Sans";
+  src:
+    url("https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/682671d47b0b7621d9aea681_db726c343a261e2fff00427b0e2fbabb_FyndSans.otf")
+      format("opentype"),
+    url("https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/68285868c4f25816da75e5e9_db726c343a261e2fff00427b0e2fbabb_FyndSans.otf")
+      format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Manrope Variablefont Wght";
+  src: url("https://cdn.prod.website-files.com/67346243b9ab0f0e6568635a/67346247b9ab0f0e656878a7_Manrope-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 200 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  min-width: 320px;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-gutter: stable;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  font-family:
+    system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+.fds__container {
+  width: 100%;
+  max-width: 80rem;
+  margin-right: auto;
+  margin-left: auto;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+  overflow-wrap: break-word;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+.fynd__button {
+  display: inline-flex;
+  min-height: 2.5rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0 1.5rem;
+  border: 0.0625rem solid transparent;
+  border-radius: 2rem;
+  font-family: "Manrope Variablefont Wght", Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+.fynd__button-primary {
+  background: #141414;
+  color: #ffffff;
+}
+
+.fynd__button-primary:hover {
+  background: #2b2b2b;
+  color: #ffffff;
+}
+
+.fynd__button-icon {
+  display: flex;
+  width: 1.25rem;
+  height: 1.25rem;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+}
+
+.fynd__button-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.fynd__button-secondary {
+  border-color: #e0e0e0;
+  background: transparent;
+  color: #101319;
+}
+
+.fynd__button-secondary:hover {
+  background: #f0e9fd;
+  color: #101319;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+*:focus-visible {
+  outline: 0.125rem solid var(--fds-neutral-100, #101319);
+  outline-offset: 0.125rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+
+/* Marketing footer */
+@font-face {
+  font-family: "Inter Display";
+  src: url("https://fynd-one-ds.vercel.app/assets/InterDisplay-Regular-B3PwPDRW.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter Display";
+  src: url("https://fynd-one-ds.vercel.app/assets/InterDisplay-Medium-CXNIaaQ3.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter Display";
+  src: url("https://fynd-one-ds.vercel.app/assets/InterDisplay-SemiBold-DAFIlMq0.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fynd Sans Compact";
+  src:
+    url("https://fynd-one-ds.vercel.app/assets/FyndSans-Compact-C2THYizw.woff2") format("woff2"),
+    url("https://fynd-one-ds.vercel.app/assets/FyndSans-Compact-DRnnChx4.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.fds-text {
+  margin: 0;
+}
+
+.fds-text__heading-xxl {
+  font-family: "Fynd Sans Compact", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: 0;
+}
+
+@media (min-width: 48rem) {
+  .fds-text__heading-xxl {
+    font-size: 3.5rem;
+    letter-spacing: 0;
+  }
+}
+
+@media (min-width: 62rem) {
+  .fds-text__heading-xxl {
+    font-size: 4.5rem;
+  }
+}
+
+.fds-text__heading-xl {
+  font-family: "Fynd Sans Compact", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+
+@media (min-width: 48rem) {
+  .fds-text__heading-xl {
+    font-size: 2.5rem;
+    line-height: 1.1;
+    letter-spacing: 0;
+  }
+}
+
+@media (min-width: 62rem) {
+  .fds-text__heading-xl {
+    font-size: 3.5rem;
+    letter-spacing: 0;
+  }
+}
+
+.fds-text__heading-l {
+  font-family: "Fynd Sans Compact", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: 0;
+}
+
+@media (min-width: 48rem) {
+  .fds-text__heading-l {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+}
+
+@media (min-width: 62rem) {
+  .fds-text__heading-l {
+    font-size: 2.5rem;
+    line-height: 1.1;
+    letter-spacing: 0;
+  }
+}
+
+.fds-text__heading-m {
+  font-family: "Fynd Sans Compact", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0;
+}
+
+@media (min-width: 48rem) {
+  .fds-text__heading-m {
+    font-size: 1.5rem;
+    line-height: 1.3;
+  }
+}
+
+@media (min-width: 62rem) {
+  .fds-text__heading-m {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+}
+
+.fds-text__heading-s {
+  font-family: "Inter Display", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+
+@media (min-width: 48rem) {
+  .fds-text__heading-s {
+    font-size: 1.375rem;
+    line-height: 1.75rem;
+    letter-spacing: 0;
+  }
+}
+
+@media (min-width: 62rem) {
+  .fds-text__heading-s {
+    font-size: 1.625rem;
+    line-height: 2.125rem;
+  }
+}
+
+.fds-text__body-xl-medium {
+  font-family: "Inter Display", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+@media (min-width: 62rem) {
+  .fds-text__body-xl-medium {
+    font-size: 1.25rem;
+  }
+}
+
+.fds-text__body-xl-regular {
+  font-family: "Inter Display", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+@media (min-width: 62rem) {
+  .fds-text__body-xl-regular {
+    font-size: 1.25rem;
+  }
+}
+
+.fds-text__body-l-medium {
+  font-family: "Inter Display", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+@media (min-width: 62rem) {
+  .fds-text__body-l-medium {
+    font-size: 1.125rem;
+  }
+}
+
+.fds-text__body-l-regular {
+  font-family: "Inter Display", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+@media (min-width: 62rem) {
+  .fds-text__body-l-regular {
+    font-size: 1.125rem;
+  }
+}
+
+.fds-text__body-m-medium {
+  font-family: "Inter Display", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.45;
+}
+
+@media (min-width: 62rem) {
+  .fds-text__body-m-medium {
+    font-size: 1rem;
+    line-height: 1.55;
+  }
+}
+
+.fds-text__body-m-regular {
+  font-family: "Inter Display", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.45;
+}
+
+@media (min-width: 62rem) {
+  .fds-text__body-m-regular {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}
+
+.fds-text__body-s-medium {
+  font-family: "Inter Display", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.fds-text__body-s-regular {
+  font-family: "Inter Display", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.fds-text__body-xs-semibold {
+  font-family: "Inter Display", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.fds-text__body-xs-medium {
+  font-family: "Inter Display", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.fds-text__body-xs-regular {
+  font-family: "Inter Display", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+.fds-text__body-xs-semibold-caps {
+  font-family: "Inter Display", sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.fds-text__color--secondary {
+  color: var(--fds-neutral-60, #5b5c5d);
+}
+
+.fds-text__color--muted {
+  color: var(--fds-text-muted, #a0a1a2);
+}
+
+.fds-text__color--subtle {
+  color: var(--fds-neutral-60, #5b5c5d);
+}
+
+.fds-text__color--white {
+  color: var(--fds-neutral-0, #ffffff);
+}
+
+.fds-text__caps {
+  text-transform: uppercase;
+}
+
+.fds-footer {
+  background-color: var(--fds-background-darkest, #0e0e0e);
+  padding: 5rem 2.5rem;
+  color: var(--fds-neutral-0, #ffffff);
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.fds-footer__container {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  position: relative;
+  z-index: 1;
+}
+
+.fds-footer__topBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  text-align: center;
+}
+
+.fds-footer__logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fds-footer__contentPairs {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 2.5rem;
+  row-gap: 2.5rem;
+  align-items: start;
+}
+
+.fds-footer__contentPair {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.fds-footer__trailing {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.fds-footer__linkRow {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.fds-footer__linkSection {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  min-width: 0;
+}
+
+.fds-footer__linkList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.fds-footer__link {
+  display: inline-block;
+  background: none;
+  border: none;
+  padding: 0;
+  color: var(--fds-neutral-40, #a0a1a2);
+  text-decoration: none;
+  text-align: left;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.fds-footer__link:hover {
+  color: var(--fds-neutral-0, #ffffff);
+}
+
+.fds-footer__divider {
+  height: 1px;
+  background-color: var(--fds-neutral-80, #4a4b4c);
+  width: 100%;
+}
+
+@media (min-width: 62rem) {
+  .fds-footer__divider {
+    display: none;
+  }
+}
+
+.fds-footer__flatRow {
+  display: contents;
+}
+
+.fds-footer__linkGroups {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+@media (max-width: 61.9375rem) {
+  .fds-footer__linkGroups {
+    gap: 0;
+  }
+}
+
+.fds-footer__linkGroup {
+  position: relative;
+  width: 100%;
+}
+
+.fds-footer__linkGroupToggler {
+  display: none;
+  width: 100%;
+  background: none;
+  border: none;
+  border-bottom: 1px solid var(--fds-neutral-80, #4a4b4c);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--fds-neutral-40, #a0a1a2);
+  padding: 1.5rem 0;
+  column-gap: 1.5rem;
+  row-gap: 1.5rem;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  text-align: left;
+}
+
+.fds-footer__linkGroupChevron {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease;
+  color: currentColor;
+  flex-shrink: 0;
+}
+
+.fds-footer__linkGroupChevron svg,
+.fds-footer__linkGroupChevron svg path {
+  fill: currentColor;
+}
+
+.fds-footer__linkGroupChevron--open {
+  transform: rotate(180deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fds-footer__linkGroupChevron {
+    transition: none;
+  }
+}
+
+.fds-footer__linkGroupContent {
+  display: block;
+}
+
+.fds-footer__linkGroupMobileContent {
+  display: none;
+}
+
+.fds-footer__linkGroupMobileContent .fds-footer__linkRow {
+  padding-top: 1.5rem;
+}
+
+@media (max-width: 61.9375rem) {
+  .fds-footer__linkGroupToggler {
+    display: flex;
+  }
+
+  .fds-footer__linkGroupContent {
+    display: none;
+  }
+
+  .fds-footer__linkGroupMobileContent {
+    display: block;
+  }
+}
+
+.fds-footer__bottomRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.fds-footer__legalLinks {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  flex-wrap: wrap;
+}
+
+.fds-footer__legalLink {
+  background: none;
+  border-right: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 0 1rem 0 0;
+  margin-right: 1rem;
+  color: #ffffffa6;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.fds-footer__legalLink:last-child {
+  border-right: none;
+  padding-right: 0;
+  margin-right: 0;
+}
+
+.fds-footer__legalLink:hover {
+  color: var(--fds-neutral-0, #ffffff);
+}
+
+.fds-footer__socialLinks {
+  display: flex;
+  align-items: center;
+  gap: 1.125rem;
+}
+
+.fds-footer__socialLink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--fds-neutral-0, #ffffff);
+  transition: opacity 0.2s;
+  opacity: 0.4;
+}
+
+.fds-footer__socialLink:hover {
+  opacity: 1;
+}
+
+.fds-footer__wordmark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  user-select: none;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.fds-footer__wordmark--text {
+  font-family: "Fynd Sans Compact", "Fynd Sans Test", sans-serif;
+  font-weight: 400;
+  font-size: clamp(12.5rem, 40vw, 35rem);
+  line-height: 0.9;
+  letter-spacing: 0;
+  text-align: center;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.08);
+  text-stroke: 1px rgba(255, 255, 255, 0.08);
+  margin: 0;
+}
+
+.fds-footer__copyright {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+@media (max-width: 61.9375rem) {
+  .fds-footer {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .fds-footer__container {
+    gap: 3rem;
+  }
+
+  .fds-footer__linkRow {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 47.9375rem) {
+  .fds-footer {
+    padding: 3rem 1.5rem;
+  }
+
+  .fds-footer__container {
+    gap: 2.5rem;
+  }
+
+  .fds-footer__contentPairs {
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: 1.5rem;
+  }
+
+  .fds-footer__trailing {
+    justify-content: flex-start;
+  }
+
+  .fds-footer__linkRow {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.5rem;
+  }
+
+  .fds-footer__bottomRow {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+}

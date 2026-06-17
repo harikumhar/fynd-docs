@@ -1,0 +1,1 @@
+export { DocsDirectory } from './DocsDirectory';

@@ -1,0 +1,886 @@
+{
+  "generatedAt": "2026-06-16T10:59:38.202Z",
+  "count": 103,
+  "failures": [],
+  "assets": [
+    {
+      "fileName": "001_670ce5b50124a54e8b71c64f_Boltic.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/670ce5b50124a54e8b71c64f_Boltic.svg",
+      "sizeBytes": 1008,
+      "foundIn": [
+        "src/components/commerce-header/CommerceHeader.tsx",
+        "/tmp/fynd_commerce_live.html"
+      ]
+    },
+    {
+      "fileName": "002_670ce71e6039543847521462_confirmation popup.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/670ce71e6039543847521462_confirmation%20popup.svg",
+      "sizeBytes": 343,
+      "foundIn": [
+        "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/css/fyndpartners.webflow.shared.b583610e9.css"
+      ]
+    },
+    {
+      "fileName": "003_670ce71e603954384752146a_error_message_bg.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/670ce71e603954384752146a_error_message_bg.svg",
+      "sizeBytes": 493,
+      "foundIn": [
+        "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/css/fyndpartners.webflow.shared.b583610e9.css"
+      ]
+    },
+    {
+      "fileName": "004_670ce71e6039543847521474_Icon.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/670ce71e6039543847521474_Icon.svg",
+      "sizeBytes": 230,
+      "foundIn": [
+        "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/css/fyndpartners.webflow.shared.b583610e9.css"
+      ]
+    },
+    {
+      "fileName": "005_670cf74dd54da8d47e6198bf_Frame 1000002797.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/670cf74dd54da8d47e6198bf_Frame%201000002797.svg",
+      "sizeBytes": 2169,
+      "foundIn": [
+        "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/css/fyndpartners.webflow.shared.b583610e9.css"
+      ]
+    },
+    {
+      "fileName": "006_670cf74dd54da8d47e6198c3_lines horizontal.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/670cf74dd54da8d47e6198c3_lines%20horizontal.svg",
+      "sizeBytes": 10502,
+      "foundIn": [
+        "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/css/fyndpartners.webflow.shared.b583610e9.css"
+      ]
+    },
+    {
+      "fileName": "007_670cf74dd54da8d47e6198d4_pading_label.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/670cf74dd54da8d47e6198d4_pading_label.svg",
+      "sizeBytes": 5595,
+      "foundIn": [
+        "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/css/fyndpartners.webflow.shared.b583610e9.css"
+      ]
+    },
+    {
+      "fileName": "008_670cf74dd54da8d47e6198e2_Frame 628321.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/670cf74dd54da8d47e6198e2_Frame%20628321.svg",
+      "sizeBytes": 1016,
+      "foundIn": [
+        "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/css/fyndpartners.webflow.shared.b583610e9.css"
+      ]
+    },
+    {
+      "fileName": "009_6719ebe29ea8f16d58714fa9_Partners dev portal og.webp",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/6719ebe29ea8f16d58714fa9_Partners%20dev%20portal%20og.webp",
+      "sizeBytes": 76532,
+      "foundIn": [
+        "/tmp/fynd_commerce_live.html"
+      ]
+    },
+    {
+      "fileName": "010_6731dd2e7e2a6d633f3f4e64_arrow-left.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/6731dd2e7e2a6d633f3f4e64_arrow-left.svg",
+      "sizeBytes": 979,
+      "foundIn": [
+        "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/css/fyndpartners.webflow.shared.b583610e9.css"
+      ]
+    },
+    {
+      "fileName": "011_67331f839ee7adda51d672f0_error_message_bg.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/67331f839ee7adda51d672f0_error_message_bg.svg",
+      "sizeBytes": 493,
+      "foundIn": [
+        "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/css/fyndpartners.webflow.shared.b583610e9.css"
+      ]
+    },
+    {
+      "fileName": "012_67331f839ee7adda51d672f1_Icon.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/67331f839ee7adda51d672f1_Icon.svg",
+      "sizeBytes": 230,
+      "foundIn": [
+        "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/css/fyndpartners.webflow.shared.b583610e9.css"
+      ]
+    },
+    {
+      "fileName": "013_67331f839ee7adda51d672f2_confirmation popup.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/67331f839ee7adda51d672f2_confirmation%20popup.svg",
+      "sizeBytes": 343,
+      "foundIn": [
+        "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/css/fyndpartners.webflow.shared.b583610e9.css"
+      ]
+    },
+    {
+      "fileName": "014_67331f839ee7adda51d672f3_arrow-left.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/67331f839ee7adda51d672f3_arrow-left.svg",
+      "sizeBytes": 979,
+      "foundIn": [
+        "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/css/fyndpartners.webflow.shared.b583610e9.css"
+      ]
+    },
+    {
+      "fileName": "015_6734864b2fddaf5cd2633313_Fynd commerce icon.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/6734864b2fddaf5cd2633313_Fynd%20commerce%20icon.svg",
+      "sizeBytes": 2888,
+      "foundIn": [
+        "src/components/commerce-header/CommerceHeader.tsx",
+        "/tmp/fynd_commerce_live.html"
+      ]
+    },
+    {
+      "fileName": "016_67348def2cb565dc286f098d_Component.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/67348def2cb565dc286f098d_Component.svg",
+      "sizeBytes": 5061,
+      "foundIn": [
+        "src/components/commerce-header/CommerceHeader.tsx",
+        "/tmp/fynd_commerce_live.html"
+      ]
+    },
+    {
+      "fileName": "017_67348def4e7bc1f02eb7666c_Pixelbin.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/67348def4e7bc1f02eb7666c_Pixelbin.svg",
+      "sizeBytes": 2806,
+      "foundIn": [
+        "src/components/commerce-header/CommerceHeader.tsx",
+        "/tmp/fynd_commerce_live.html"
+      ]
+    },
+    {
+      "fileName": "018_67348def84ccadd8bdec777a_Potlee.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/67348def84ccadd8bdec777a_Potlee.svg",
+      "sizeBytes": 806,
+      "foundIn": [
+        "/tmp/fynd_commerce_live.html"
+      ]
+    },
+    {
+      "fileName": "019_67348defeafc564cecd6aef7_Copilot.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/67348defeafc564cecd6aef7_Copilot.svg",
+      "sizeBytes": 1417361,
+      "foundIn": [
+        "src/components/commerce-header/CommerceHeader.tsx",
+        "/tmp/fynd_commerce_live.html"
+      ]
+    },
+    {
+      "fileName": "020_68286a8e395d922891d01b6e_652427a2c3047913c756e39de1a2cd74_AI glow.avif",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/68286a8e395d922891d01b6e_652427a2c3047913c756e39de1a2cd74_AI%20glow.avif",
+      "sizeBytes": 1280,
+      "foundIn": [
+        "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/css/fyndpartners.webflow.shared.b583610e9.css"
+      ]
+    },
+    {
+      "fileName": "021_68287b4d96e1bc7d6a41a783_28d447789d01919fe1dff2d8c8fb0466_ic_search.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/68287b4d96e1bc7d6a41a783_28d447789d01919fe1dff2d8c8fb0466_ic_search.svg",
+      "sizeBytes": 1277,
+      "foundIn": [
+        "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/css/fyndpartners.webflow.shared.b583610e9.css"
+      ]
+    },
+    {
+      "fileName": "022_68287bf4d8c30949b28945af_check-circle-1.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/68287bf4d8c30949b28945af_check-circle-1.svg",
+      "sizeBytes": 659,
+      "foundIn": [
+        "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/css/fyndpartners.webflow.shared.b583610e9.css"
+      ]
+    },
+    {
+      "fileName": "023_688b3d73524c27923ad38dca_b7456e5eb407577bc1a6c4f608415e98_grain_hero.avif",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/688b3d73524c27923ad38dca_b7456e5eb407577bc1a6c4f608415e98_grain_hero.avif",
+      "sizeBytes": 524857,
+      "foundIn": [
+        "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/css/fyndpartners.webflow.shared.b583610e9.css"
+      ]
+    },
+    {
+      "fileName": "024_688b408817c433d44baf77d9_dbc4ea50f4ba2530b77ed62d291c7d2b_check-circle 1.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/688b408817c433d44baf77d9_dbc4ea50f4ba2530b77ed62d291c7d2b_check-circle%201.svg",
+      "sizeBytes": 659,
+      "foundIn": [
+        "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/css/fyndpartners.webflow.shared.b583610e9.css"
+      ]
+    },
+    {
+      "fileName": "025_688b53caf7d78da6508983ee_459937f4f2d1e82469ca957edbf35246_video-bg-2.avif",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/688b53caf7d78da6508983ee_459937f4f2d1e82469ca957edbf35246_video-bg-2.avif",
+      "sizeBytes": 2632,
+      "foundIn": [
+        "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/css/fyndpartners.webflow.shared.b583610e9.css"
+      ]
+    },
+    {
+      "fileName": "026_688b53caf7d78da6508983f4_6be764fda9af8f660678871649d34041_pexels-veeterzy-114979 1.png",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/688b53caf7d78da6508983f4_6be764fda9af8f660678871649d34041_pexels-veeterzy-114979%201.png",
+      "sizeBytes": 314149,
+      "foundIn": [
+        "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/css/fyndpartners.webflow.shared.b583610e9.css"
+      ]
+    },
+    {
+      "fileName": "027_688c8503d809d7c945d8794e_0a372d1c6fe8d045f208de1ed5312452_cta-right-pattern.avif",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/688c8503d809d7c945d8794e_0a372d1c6fe8d045f208de1ed5312452_cta-right-pattern.avif",
+      "sizeBytes": 13477,
+      "foundIn": [
+        "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/css/fyndpartners.webflow.shared.b583610e9.css"
+      ]
+    },
+    {
+      "fileName": "028_688c8503d809d7c945d87950_06f4526ef5b9d5ef3a700dfaec0a6bb2_cta-left-pattern.avif",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/688c8503d809d7c945d87950_06f4526ef5b9d5ef3a700dfaec0a6bb2_cta-left-pattern.avif",
+      "sizeBytes": 13726,
+      "foundIn": [
+        "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/css/fyndpartners.webflow.shared.b583610e9.css"
+      ]
+    },
+    {
+      "fileName": "029_688c8503d809d7c945d87952_0906e2a1e2e1ea6d037d54dbf95b1d68_dark-cta-pattern-bg.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/688c8503d809d7c945d87952_0906e2a1e2e1ea6d037d54dbf95b1d68_dark-cta-pattern-bg.svg",
+      "sizeBytes": 12962,
+      "foundIn": [
+        "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/css/fyndpartners.webflow.shared.b583610e9.css"
+      ]
+    },
+    {
+      "fileName": "030_68c7b64242335ae91a018f2c_459937f4f2d1e82469ca957edbf35246_video-bg-2.avif",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/68c7b64242335ae91a018f2c_459937f4f2d1e82469ca957edbf35246_video-bg-2.avif",
+      "sizeBytes": 2632,
+      "foundIn": [
+        "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/css/fyndpartners.webflow.shared.b583610e9.css"
+      ]
+    },
+    {
+      "fileName": "031_68c7b64242335ae91a018f32_6be764fda9af8f660678871649d34041_pexels-veeterzy-114979 1.png",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/68c7b64242335ae91a018f32_6be764fda9af8f660678871649d34041_pexels-veeterzy-114979%201.png",
+      "sizeBytes": 314149,
+      "foundIn": [
+        "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/css/fyndpartners.webflow.shared.b583610e9.css"
+      ]
+    },
+    {
+      "fileName": "032_693a7b4472f9259bd2fb18f4_fynd.png",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/693a7b4472f9259bd2fb18f4_fynd.png",
+      "sizeBytes": 666,
+      "foundIn": [
+        "src/pageMetadata.ts",
+        "/tmp/fynd_commerce_live.html"
+      ]
+    },
+    {
+      "fileName": "033_693a7b4836076b50497a67bd_webclip.png",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/693a7b4836076b50497a67bd_webclip.png",
+      "sizeBytes": 4918,
+      "foundIn": [
+        "src/pageMetadata.ts",
+        "/tmp/fynd_commerce_live.html"
+      ]
+    },
+    {
+      "fileName": "034_694256f022495e9bd4a7d92f_Partners_Dark.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/694256f022495e9bd4a7d92f_Partners_Dark.svg",
+      "sizeBytes": 11930,
+      "foundIn": [
+        "src/components/commerce-header/CommerceHeader.tsx",
+        "/tmp/fynd_commerce_live.html"
+      ]
+    },
+    {
+      "fileName": "035_69a52acd3480e784f855ef18_977cf10b948984d3ae7c3027be49a32b_ic_chevron_down.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/69a52acd3480e784f855ef18_977cf10b948984d3ae7c3027be49a32b_ic_chevron_down.svg",
+      "sizeBytes": 561,
+      "foundIn": [
+        "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/css/fyndpartners.webflow.shared.b583610e9.css"
+      ]
+    },
+    {
+      "fileName": "036_69a545001354bb86984795ac_partner-image03.avif",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/69a545001354bb86984795ac_partner-image03.avif",
+      "sizeBytes": 33359,
+      "foundIn": [
+        "src/components/commerce-build/CommerceBuild.tsx",
+        "/tmp/fynd_commerce_live.html"
+      ]
+    },
+    {
+      "fileName": "037_69a545005eb103bdebc4d7d7_partner-image01.avif",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/69a545005eb103bdebc4d7d7_partner-image01.avif",
+      "sizeBytes": 19862,
+      "foundIn": [
+        "src/components/commerce-build/CommerceBuild.tsx",
+        "/tmp/fynd_commerce_live.html"
+      ]
+    },
+    {
+      "fileName": "038_69a54500883dbc16a1377d1b_partner-image04.avif",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/69a54500883dbc16a1377d1b_partner-image04.avif",
+      "sizeBytes": 10084,
+      "foundIn": [
+        "src/components/commerce-build/CommerceBuild.tsx",
+        "/tmp/fynd_commerce_live.html"
+      ]
+    },
+    {
+      "fileName": "039_69a54500f2656bb074f9320a_partner-image02.avif",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/69a54500f2656bb074f9320a_partner-image02.avif",
+      "sizeBytes": 10642,
+      "foundIn": [
+        "src/components/commerce-build/CommerceBuild.tsx",
+        "/tmp/fynd_commerce_live.html"
+      ]
+    },
+    {
+      "fileName": "040_69a54b8dc32ddbbbd0e0a6d3_Theme Marketplace.avif",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/69a54b8dc32ddbbbd0e0a6d3_Theme%20Marketplace.avif",
+      "sizeBytes": 8435,
+      "foundIn": [
+        "src/components/commerce-marketplace/CommerceMarketplace.tsx",
+        "/tmp/fynd_commerce_live.html"
+      ]
+    },
+    {
+      "fileName": "041_69a54b8dea31d88d001f1eec_Extension Marketplace.avif",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/69a54b8dea31d88d001f1eec_Extension%20Marketplace.avif",
+      "sizeBytes": 57947,
+      "foundIn": [
+        "src/components/commerce-marketplace/CommerceMarketplace.tsx",
+        "/tmp/fynd_commerce_live.html"
+      ]
+    },
+    {
+      "fileName": "042_69a54c1627ef20e6e3f6895b_Commerce.png",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/69a54c1627ef20e6e3f6895b_Commerce.png",
+      "sizeBytes": 6091,
+      "foundIn": [
+        "src/components/commerce-ecosystem/CommerceEcosystem.tsx",
+        "/tmp/fynd_commerce_live.html"
+      ]
+    },
+    {
+      "fileName": "043_69a54c166cacbdd277d09dc3_Themes.png",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/69a54c166cacbdd277d09dc3_Themes.png",
+      "sizeBytes": 4661,
+      "foundIn": [
+        "src/components/commerce-ecosystem/CommerceEcosystem.tsx",
+        "/tmp/fynd_commerce_live.html"
+      ]
+    },
+    {
+      "fileName": "044_69a54c16e52a6ee832861dc1_Extensions.png",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/69a54c16e52a6ee832861dc1_Extensions.png",
+      "sizeBytes": 5201,
+      "foundIn": [
+        "src/components/commerce-ecosystem/CommerceEcosystem.tsx",
+        "/tmp/fynd_commerce_live.html"
+      ]
+    },
+    {
+      "fileName": "045_69a54c831b12160bb86ffd4a_More Confident purchase.png",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/69a54c831b12160bb86ffd4a_More%20Confident%20purchase.png",
+      "sizeBytes": 7914,
+      "foundIn": [
+        "src/components/commerce-development-kit/CommerceDevelopmentKit.tsx",
+        "/tmp/fynd_commerce_live.html"
+      ]
+    },
+    {
+      "fileName": "046_69a54c8327a82770acefdf5a_One time website setup.png",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/69a54c8327a82770acefdf5a_One%20time%20website%20setup.png",
+      "sizeBytes": 4689,
+      "foundIn": [
+        "src/components/commerce-development-kit/CommerceDevelopmentKit.tsx",
+        "/tmp/fynd_commerce_live.html"
+      ]
+    },
+    {
+      "fileName": "047_69a54c835e1b9e88b957708f_Embed into any store.png",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/69a54c835e1b9e88b957708f_Embed%20into%20any%20store.png",
+      "sizeBytes": 4896,
+      "foundIn": [
+        "src/components/commerce-development-kit/CommerceDevelopmentKit.tsx",
+        "/tmp/fynd_commerce_live.html"
+      ]
+    },
+    {
+      "fileName": "048_69a54c83dcda5dd2fde2e9f7_Open APIs, SDKs, and data.png",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/69a54c83dcda5dd2fde2e9f7_Open%20APIs%2C%20SDKs%2C%20and%20data.png",
+      "sizeBytes": 7617,
+      "foundIn": [
+        "src/components/commerce-development-kit/CommerceDevelopmentKit.tsx",
+        "/tmp/fynd_commerce_live.html"
+      ]
+    },
+    {
+      "fileName": "049_69a5531a3cc1fa93817d279c_CTA-Banner.avif",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/69a5531a3cc1fa93817d279c_CTA-Banner.avif",
+      "sizeBytes": 2146,
+      "foundIn": [
+        "src/components/commerce-partner-cta/CommercePartnerCta.css",
+        "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/css/fyndpartners.webflow.shared.b583610e9.css"
+      ]
+    },
+    {
+      "fileName": "050_69a9196dfa2db87da19778c1_Screenshot 2026-03-05 at 11.17.02 AM.png",
+      "originalUrl": "https://cdn.prod.website-files.com/6655b85bb49339efd7619a7e/69a9196dfa2db87da19778c1_Screenshot%202026-03-05%20at%2011.17.02%E2%80%AFAM.png",
+      "sizeBytes": 230751,
+      "foundIn": [
+        "src/pageMetadata.ts",
+        "/tmp/fynd_commerce_live.html"
+      ]
+    },
+    {
+      "fileName": "051_6707a3a7d07105fbeafc4fe7_Subtract 4.avif",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/6707a3a7d07105fbeafc4fe7_Subtract%204.avif",
+      "sizeBytes": 14031,
+      "foundIn": [
+        "src/components/docs-commerce-cta/DocsCommerceCta.tsx",
+        "/tmp/fynd_docs_live.html"
+      ]
+    },
+    {
+      "fileName": "052_6707a3a7d07105fbeafc5017_Subtract 5.webp",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/6707a3a7d07105fbeafc5017_Subtract%205.webp",
+      "sizeBytes": 17354,
+      "foundIn": [
+        "src/components/docs-commerce-cta/DocsCommerceCta.tsx",
+        "/tmp/fynd_docs_live.html"
+      ]
+    },
+    {
+      "fileName": "053_6707a3a8d07105fbeafc5121_Subtract 1.webp",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/6707a3a8d07105fbeafc5121_Subtract%201.webp",
+      "sizeBytes": 6228,
+      "foundIn": [
+        "src/components/docs-commerce-cta/DocsCommerceCta.tsx",
+        "/tmp/fynd_docs_live.html"
+      ]
+    },
+    {
+      "fileName": "054_6707a3a8d07105fbeafc5140_Subtract 3.webp",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/6707a3a8d07105fbeafc5140_Subtract%203.webp",
+      "sizeBytes": 7782,
+      "foundIn": [
+        "src/components/docs-commerce-cta/DocsCommerceCta.tsx",
+        "/tmp/fynd_docs_live.html"
+      ]
+    },
+    {
+      "fileName": "055_6707a3a8d07105fbeafc5149_Subtract 4.webp",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/6707a3a8d07105fbeafc5149_Subtract%204.webp",
+      "sizeBytes": 18362,
+      "foundIn": [
+        "src/components/docs-commerce-cta/DocsCommerceCta.tsx",
+        "/tmp/fynd_docs_live.html"
+      ]
+    },
+    {
+      "fileName": "056_6718bd5dbe6c5355687b9199_confirmation popup.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/6718bd5dbe6c5355687b9199_confirmation%20popup.svg",
+      "sizeBytes": 343,
+      "foundIn": [
+        "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/css/fynd-documentation.shared.958b7f722.min.css"
+      ]
+    },
+    {
+      "fileName": "057_6718bd5dbe6c5355687b91a0_error_message_bg.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/6718bd5dbe6c5355687b91a0_error_message_bg.svg",
+      "sizeBytes": 493,
+      "foundIn": [
+        "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/css/fynd-documentation.shared.958b7f722.min.css"
+      ]
+    },
+    {
+      "fileName": "058_6718bd5dbe6c5355687b91b1_Icon.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/6718bd5dbe6c5355687b91b1_Icon.svg",
+      "sizeBytes": 230,
+      "foundIn": [
+        "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/css/fynd-documentation.shared.958b7f722.min.css"
+      ]
+    },
+    {
+      "fileName": "059_6718bd5dbe6c5355687b91d6_arrow-left.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/6718bd5dbe6c5355687b91d6_arrow-left.svg",
+      "sizeBytes": 979,
+      "foundIn": [
+        "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/css/fynd-documentation.shared.958b7f722.min.css"
+      ]
+    },
+    {
+      "fileName": "060_6718c037073e157a4b0d1bed_Frame 1000002797.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/6718c037073e157a4b0d1bed_Frame%201000002797.svg",
+      "sizeBytes": 2169,
+      "foundIn": [
+        "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/css/fynd-documentation.shared.958b7f722.min.css"
+      ]
+    },
+    {
+      "fileName": "061_6718c037073e157a4b0d1bfe_lines horizontal.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/6718c037073e157a4b0d1bfe_lines%20horizontal.svg",
+      "sizeBytes": 10502,
+      "foundIn": [
+        "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/css/fynd-documentation.shared.958b7f722.min.css"
+      ]
+    },
+    {
+      "fileName": "062_6718c037073e157a4b0d1c59_pading_label.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/6718c037073e157a4b0d1c59_pading_label.svg",
+      "sizeBytes": 5595,
+      "foundIn": [
+        "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/css/fynd-documentation.shared.958b7f722.min.css"
+      ]
+    },
+    {
+      "fileName": "063_6718c037073e157a4b0d1c7f_Frame 628321.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/6718c037073e157a4b0d1c7f_Frame%20628321.svg",
+      "sizeBytes": 1016,
+      "foundIn": [
+        "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/css/fynd-documentation.shared.958b7f722.min.css"
+      ]
+    },
+    {
+      "fileName": "064_6718dbc43109a762d51ba2db_ad2583a101d7ff31e41fa7e2fffafe1c_FCP.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/6718dbc43109a762d51ba2db_ad2583a101d7ff31e41fa7e2fffafe1c_FCP.svg",
+      "sizeBytes": 1730,
+      "foundIn": [
+        "src/components/docs-directory/directoryData.ts",
+        "/tmp/fynd_docs_live.html"
+      ]
+    },
+    {
+      "fileName": "065_6718dbc53109a762d51ba313_6a1ebca47f92bacabd1e8c204823b890_Fynd TMS.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/6718dbc53109a762d51ba313_6a1ebca47f92bacabd1e8c204823b890_Fynd%20TMS.svg",
+      "sizeBytes": 2231,
+      "foundIn": [
+        "src/components/docs-directory/directoryData.ts",
+        "/tmp/fynd_docs_live.html"
+      ]
+    },
+    {
+      "fileName": "066_6718dbc53109a762d51ba317_Zenith.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/6718dbc53109a762d51ba317_Zenith.svg",
+      "sizeBytes": 2472,
+      "foundIn": [
+        "src/components/docs-directory/directoryData.ts",
+        "/tmp/fynd_docs_live.html"
+      ]
+    },
+    {
+      "fileName": "067_6718dbc53109a762d51ba32b_1705ac8d40ee408f6f1a3956bfb841b9_Pixelbin.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/6718dbc53109a762d51ba32b_1705ac8d40ee408f6f1a3956bfb841b9_Pixelbin.svg",
+      "sizeBytes": 2233,
+      "foundIn": [
+        "src/components/docs-directory/directoryData.ts",
+        "/tmp/fynd_docs_live.html"
+      ]
+    },
+    {
+      "fileName": "068_6718dbc53109a762d51ba34b_0a7c62c65886f8405740ffeda55f4baf_GlamAR.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/6718dbc53109a762d51ba34b_0a7c62c65886f8405740ffeda55f4baf_GlamAR.svg",
+      "sizeBytes": 1951,
+      "foundIn": [
+        "src/components/docs-directory/directoryData.ts",
+        "/tmp/fynd_docs_live.html"
+      ]
+    },
+    {
+      "fileName": "069_6718dbc53109a762d51ba36f_7e103aecb613a6fc38a3a013342bccb6_Boltic.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/6718dbc53109a762d51ba36f_7e103aecb613a6fc38a3a013342bccb6_Boltic.svg",
+      "sizeBytes": 1140,
+      "foundIn": [
+        "src/components/docs-directory/directoryData.ts",
+        "/tmp/fynd_docs_live.html"
+      ]
+    },
+    {
+      "fileName": "070_6718dbc53109a762d51ba3c6_Fynd Documentation.png",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/6718dbc53109a762d51ba3c6_Fynd%20Documentation.png",
+      "sizeBytes": 73281,
+      "foundIn": [
+        "src/components/docs-hero/DocsHero.tsx",
+        "/tmp/fynd_docs_live.html"
+      ]
+    },
+    {
+      "fileName": "071_6718dbc53109a762d51ba3c6_Fynd%20Documentation-p-1080.png",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/6718dbc53109a762d51ba3c6_Fynd%2520Documentation-p-1080.png",
+      "sizeBytes": 33695,
+      "foundIn": [
+        "src/components/docs-hero/DocsHero.tsx",
+        "/tmp/fynd_docs_live.html"
+      ]
+    },
+    {
+      "fileName": "072_6718dbc53109a762d51ba3c6_Fynd%20Documentation-p-500.png",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/6718dbc53109a762d51ba3c6_Fynd%2520Documentation-p-500.png",
+      "sizeBytes": 13749,
+      "foundIn": [
+        "src/components/docs-hero/DocsHero.tsx",
+        "/tmp/fynd_docs_live.html"
+      ]
+    },
+    {
+      "fileName": "073_6718dbc53109a762d51ba3c6_Fynd%20Documentation-p-800.png",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/6718dbc53109a762d51ba3c6_Fynd%2520Documentation-p-800.png",
+      "sizeBytes": 23437,
+      "foundIn": [
+        "src/components/docs-hero/DocsHero.tsx",
+        "/tmp/fynd_docs_live.html"
+      ]
+    },
+    {
+      "fileName": "074_6718dbc63109a762d51ba3ea_Partner portal.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/6718dbc63109a762d51ba3ea_Partner%20portal.svg",
+      "sizeBytes": 6407,
+      "foundIn": [
+        "src/components/docs-developer/developerDocsData.ts",
+        "/tmp/fynd_docs_live.html"
+      ]
+    },
+    {
+      "fileName": "075_6718dbc63109a762d51ba3f5_Fynd Community.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/6718dbc63109a762d51ba3f5_Fynd%20Community.svg",
+      "sizeBytes": 7963,
+      "foundIn": [
+        "src/components/docs-developer/developerDocsData.ts",
+        "/tmp/fynd_docs_live.html"
+      ]
+    },
+    {
+      "fileName": "076_6718dbc63109a762d51ba41b_ccd46e8cc29bcdae69d73853f49585a2_CoPilot.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/6718dbc63109a762d51ba41b_ccd46e8cc29bcdae69d73853f49585a2_CoPilot.svg",
+      "sizeBytes": 3048,
+      "foundIn": [
+        "src/components/docs-directory/directoryData.ts",
+        "/tmp/fynd_docs_live.html"
+      ]
+    },
+    {
+      "fileName": "077_672c5439b6bcb7e0f17fc66b_38d90d29873ce70566280edb44ec5a95_Gauze.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/672c5439b6bcb7e0f17fc66b_38d90d29873ce70566280edb44ec5a95_Gauze.svg",
+      "sizeBytes": 3766,
+      "foundIn": [
+        "src/components/docs-directory/directoryData.ts",
+        "/tmp/fynd_docs_live.html"
+      ]
+    },
+    {
+      "fileName": "078_6839cf47a701531a0637a36a_PIM.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/6839cf47a701531a0637a36a_PIM.svg",
+      "sizeBytes": 2100,
+      "foundIn": [
+        "src/components/docs-directory/directoryData.ts",
+        "/tmp/fynd_docs_live.html"
+      ]
+    },
+    {
+      "fileName": "079_6839cf5df0622f781a4c1e78_Konnect.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/6839cf5df0622f781a4c1e78_Konnect.svg",
+      "sizeBytes": 1689,
+      "foundIn": [
+        "src/components/docs-directory/directoryData.ts",
+        "/tmp/fynd_docs_live.html"
+      ]
+    },
+    {
+      "fileName": "080_6839cf75ac9ba3c7b1838b56_Engage.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/6839cf75ac9ba3c7b1838b56_Engage.svg",
+      "sizeBytes": 2019,
+      "foundIn": [
+        "src/components/docs-directory/directoryData.ts",
+        "/tmp/fynd_docs_live.html"
+      ]
+    },
+    {
+      "fileName": "081_6839cf870b7ec83ab0e03b6e_Partners.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/6839cf870b7ec83ab0e03b6e_Partners.svg",
+      "sizeBytes": 2982,
+      "foundIn": [
+        "src/components/docs-directory/directoryData.ts",
+        "/tmp/fynd_docs_live.html"
+      ]
+    },
+    {
+      "fileName": "082_6839cfb7955ca1f70cadbe8b_WMS.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/6839cfb7955ca1f70cadbe8b_WMS.svg",
+      "sizeBytes": 1499,
+      "foundIn": [
+        "src/components/docs-directory/directoryData.ts",
+        "/tmp/fynd_docs_live.html"
+      ]
+    },
+    {
+      "fileName": "083_69391de66cc2277da8b12654_Logo_icon.avif",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/69391de66cc2277da8b12654_Logo_icon.avif",
+      "sizeBytes": 2657,
+      "foundIn": [
+        "/tmp/fynd_docs_live.html"
+      ]
+    },
+    {
+      "fileName": "084_69391de66cc2277da8b12658_Vector.avif",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/69391de66cc2277da8b12658_Vector.avif",
+      "sizeBytes": 424,
+      "foundIn": [
+        "/tmp/fynd_docs_live.html"
+      ]
+    },
+    {
+      "fileName": "085_69391de66cc2277da8b1265a_Roundel.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/69391de66cc2277da8b1265a_Roundel.svg",
+      "sizeBytes": 25408,
+      "foundIn": [
+        "/tmp/fynd_docs_live.html"
+      ]
+    },
+    {
+      "fileName": "086_69391de66cc2277da8b1265b_fb2b10a26add41e7add654b0317df382ef05a909.webp",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/69391de66cc2277da8b1265b_fb2b10a26add41e7add654b0317df382ef05a909.webp",
+      "sizeBytes": 13876,
+      "foundIn": [
+        "/tmp/fynd_docs_live.html"
+      ]
+    },
+    {
+      "fileName": "087_69391de66cc2277da8b1265f_009c7f35fce44cf51691d436f8d5e365880aa097-p-1080.png",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/69391de66cc2277da8b1265f_009c7f35fce44cf51691d436f8d5e365880aa097-p-1080.png",
+      "sizeBytes": 76657,
+      "foundIn": [
+        "/tmp/fynd_docs_live.html"
+      ]
+    },
+    {
+      "fileName": "088_69391de66cc2277da8b1265f_009c7f35fce44cf51691d436f8d5e365880aa097-p-500.png",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/69391de66cc2277da8b1265f_009c7f35fce44cf51691d436f8d5e365880aa097-p-500.png",
+      "sizeBytes": 30209,
+      "foundIn": [
+        "/tmp/fynd_docs_live.html"
+      ]
+    },
+    {
+      "fileName": "089_69391de66cc2277da8b1265f_009c7f35fce44cf51691d436f8d5e365880aa097-p-800.png",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/69391de66cc2277da8b1265f_009c7f35fce44cf51691d436f8d5e365880aa097-p-800.png",
+      "sizeBytes": 52465,
+      "foundIn": [
+        "/tmp/fynd_docs_live.html"
+      ]
+    },
+    {
+      "fileName": "090_69391de66cc2277da8b1265f_009c7f35fce44cf51691d436f8d5e365880aa097.png",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/69391de66cc2277da8b1265f_009c7f35fce44cf51691d436f8d5e365880aa097.png",
+      "sizeBytes": 216541,
+      "foundIn": [
+        "/tmp/fynd_docs_live.html"
+      ]
+    },
+    {
+      "fileName": "091_693a7b1b9c7fe8ead509a385_fynd.png",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/693a7b1b9c7fe8ead509a385_fynd.png",
+      "sizeBytes": 666,
+      "foundIn": [
+        "index.html",
+        "src/pageMetadata.ts",
+        "/tmp/fynd_docs_live.html"
+      ]
+    },
+    {
+      "fileName": "092_693a7b1d8f830a8ecaa52bf2_webclip.png",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/693a7b1d8f830a8ecaa52bf2_webclip.png",
+      "sizeBytes": 4918,
+      "foundIn": [
+        "index.html",
+        "src/pageMetadata.ts",
+        "/tmp/fynd_docs_live.html"
+      ]
+    },
+    {
+      "fileName": "093_693bb3265250096d24418380_StoreOS.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/693bb3265250096d24418380_StoreOS.svg",
+      "sizeBytes": 943,
+      "foundIn": [
+        "src/components/docs-directory/directoryData.ts",
+        "/tmp/fynd_docs_live.html"
+      ]
+    },
+    {
+      "fileName": "094_69707f85a858512770829f80_f18fb70fd460cead7be2e375cacb3ebf_open-image.jpg",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/69707f85a858512770829f80_f18fb70fd460cead7be2e375cacb3ebf_open-image.jpg",
+      "sizeBytes": 82639,
+      "foundIn": [
+        "index.html",
+        "src/pageMetadata.ts",
+        "/tmp/fynd_docs_live.html"
+      ]
+    },
+    {
+      "fileName": "095_6a1d2aa8985611af07cb2291_ChatGPT Image Jun 1, 2026, 12_15_38 PM-p-1080.png",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/6a1d2aa8985611af07cb2291_ChatGPT%20Image%20Jun%201%2C%202026%2C%2012_15_38%20PM-p-1080.png",
+      "sizeBytes": 440294,
+      "foundIn": [
+        "/tmp/fynd_docs_live.html"
+      ]
+    },
+    {
+      "fileName": "096_6a1d2aa8985611af07cb2291_ChatGPT Image Jun 1, 2026, 12_15_38 PM-p-500.png",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/6a1d2aa8985611af07cb2291_ChatGPT%20Image%20Jun%201%2C%202026%2C%2012_15_38%20PM-p-500.png",
+      "sizeBytes": 112691,
+      "foundIn": [
+        "/tmp/fynd_docs_live.html"
+      ]
+    },
+    {
+      "fileName": "097_6a1d2aa8985611af07cb2291_ChatGPT Image Jun 1, 2026, 12_15_38 PM-p-800.png",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/6a1d2aa8985611af07cb2291_ChatGPT%20Image%20Jun%201%2C%202026%2C%2012_15_38%20PM-p-800.png",
+      "sizeBytes": 265733,
+      "foundIn": [
+        "/tmp/fynd_docs_live.html"
+      ]
+    },
+    {
+      "fileName": "098_6a1d2aa8985611af07cb2291_ChatGPT Image Jun 1, 2026, 12_15_38 PM.png",
+      "originalUrl": "https://cdn.prod.website-files.com/6707a25bc42f5c6db4cbfdc3/6a1d2aa8985611af07cb2291_ChatGPT%20Image%20Jun%201%2C%202026%2C%2012_15_38%20PM.png",
+      "sizeBytes": 722603,
+      "foundIn": [
+        "src/components/docs-directory/directoryData.ts",
+        "/tmp/fynd_docs_live.html"
+      ]
+    },
+    {
+      "fileName": "099_67c05232e4860e3c43444560_Logo_icon.avif",
+      "originalUrl": "https://cdn.prod.website-files.com/6828583ea6a54fddda954c46/67c05232e4860e3c43444560_Logo_icon.avif",
+      "sizeBytes": 2657,
+      "foundIn": [
+        "/tmp/fynd_commerce_live.html"
+      ]
+    },
+    {
+      "fileName": "100_67c05232e4860e3c43444564_Vector.avif",
+      "originalUrl": "https://cdn.prod.website-files.com/6828583ea6a54fddda954c46/67c05232e4860e3c43444564_Vector.avif",
+      "sizeBytes": 424,
+      "foundIn": [
+        "/tmp/fynd_commerce_live.html"
+      ]
+    },
+    {
+      "fileName": "101_67dd36307662f57e7245abff_Roundel.svg",
+      "originalUrl": "https://cdn.prod.website-files.com/6828583ea6a54fddda954c46/67dd36307662f57e7245abff_Roundel.svg",
+      "sizeBytes": 25408,
+      "foundIn": [
+        "/tmp/fynd_commerce_live.html"
+      ]
+    },
+    {
+      "fileName": "102_6823275f8cde687f82022461_fb2b10a26add41e7add654b0317df382ef05a909.webp",
+      "originalUrl": "https://cdn.prod.website-files.com/6828583ea6a54fddda954c46/6823275f8cde687f82022461_fb2b10a26add41e7add654b0317df382ef05a909.webp",
+      "sizeBytes": 13876,
+      "foundIn": [
+        "/tmp/fynd_commerce_live.html"
+      ]
+    },
+    {
+      "fileName": "103_6825ec9415021b2716434ab9_009c7f35fce44cf51691d436f8d5e365880aa097.png",
+      "originalUrl": "https://cdn.prod.website-files.com/6828583ea6a54fddda954c46/6825ec9415021b2716434ab9_009c7f35fce44cf51691d436f8d5e365880aa097.png",
+      "sizeBytes": 216541,
+      "foundIn": [
+        "/tmp/fynd_commerce_live.html"
+      ]
+    }
+  ]
+}
