@@ -1,0 +1,260 @@
+/* AI PIM docs page */
+.ai-pim-docs-page {
+  min-height: 100vh;
+  background: #ffffff;
+}
+
+.ai-pim-docs-page__main {
+  display: block;
+}
+
+.ai-pim-docs-page .fds-footer {
+  min-height: auto;
+}
+
+/* Hero */
+.ai-pim-docs-hero {
+  position: relative;
+  overflow: hidden;
+  background: #101319;
+  color: #ffffff;
+  font-family: "Inter Display", Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.ai-pim-docs-hero__page-padding {
+  padding: 5rem 2.5rem;
+}
+
+.ai-pim-docs-hero__container {
+  position: relative;
+}
+
+.ai-pim-docs-hero__content {
+  display: flex;
+  max-width: 60rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.ai-pim-docs-hero__eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.25rem 1rem;
+  border-radius: 1.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0;
+}
+
+.ai-pim-docs-hero__eyebrow-dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  flex: 0 0 auto;
+  border-radius: 999rem;
+  background: #5c98f7;
+}
+
+.ai-pim-docs-hero__text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.ai-pim-docs-hero__title {
+  font-family: "Fynd Sans", "Fynd Sans Regular", Inter, system-ui, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+}
+
+.ai-pim-docs-hero__description {
+  max-width: 29rem;
+  color: #a0a1a2;
+  font-family: "Inter Display", Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.45;
+  letter-spacing: 0;
+}
+
+/* Directory */
+.ai-pim-docs-directory {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+  background: #f8f8f9;
+  color: #051e39;
+}
+
+.ai-pim-docs-directory__page-padding {
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+}
+
+.ai-pim-docs-directory__grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+.ai-pim-docs-directory__card {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  min-height: 16.25rem;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2rem;
+  border: 0.0625rem solid #e3e3e3;
+  border-radius: 1rem;
+  background: #ffffff;
+  color: #051e39;
+  transition: all 0.2s;
+}
+
+.ai-pim-docs-directory__card:hover {
+  box-shadow: none;
+}
+
+.ai-pim-docs-directory__icon {
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  margin-bottom: 2rem;
+  object-fit: contain;
+}
+
+.ai-pim-docs-directory__card-title {
+  margin: 0 0 0.5rem;
+  color: #101319;
+  font-family: "Inter Display", Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 0;
+}
+
+.ai-pim-docs-directory__card-description {
+  flex: 1;
+  margin: 0;
+  color: #5b5c5d;
+  font-family: "Inter Display", Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.55;
+  letter-spacing: 0;
+}
+
+.ai-pim-docs-directory__learn-more {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: auto;
+  padding-top: 2rem;
+  color: #101319;
+  font-family: "Inter Display", Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.35;
+  letter-spacing: 0;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.ai-pim-docs-directory__learn-more-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  flex: 0 0 auto;
+  transform: translateX(0);
+  transition: transform 0.2s ease-in-out;
+}
+
+.ai-pim-docs-directory__learn-more:hover {
+  background-color: transparent;
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+.ai-pim-docs-directory__learn-more:hover .ai-pim-docs-directory__learn-more-icon {
+  transform: translateX(0.25rem);
+}
+
+@media (max-width: 63.9375rem) {
+  .ai-pim-docs-hero__title {
+    font-size: 2rem;
+  }
+
+  .ai-pim-docs-hero__description {
+    font-size: 1rem;
+  }
+
+  .ai-pim-docs-directory__card-title {
+    font-size: 1.125rem;
+  }
+
+  .ai-pim-docs-directory__card-description {
+    font-size: 0.9375rem;
+  }
+
+  .ai-pim-docs-directory__learn-more {
+    font-size: 0.9375rem;
+  }
+
+  .ai-pim-docs-directory__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 47.9375rem) {
+  .ai-pim-docs-hero__page-padding {
+    padding: 3rem 1.5rem;
+  }
+
+  .ai-pim-docs-hero__content {
+    max-width: none;
+  }
+
+  .ai-pim-docs-hero__title {
+    font-size: 1.5rem;
+    line-height: 1.35;
+  }
+
+  .ai-pim-docs-hero__description {
+    font-size: 1rem;
+  }
+
+  .ai-pim-docs-directory {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .ai-pim-docs-directory__page-padding {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+  }
+
+  .ai-pim-docs-directory__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ai-pim-docs-directory__card {
+    min-height: 16.25rem;
+  }
+
+  .ai-pim-docs-directory__card-title {
+    font-size: 1.2rem;
+  }
+
+  .ai-pim-docs-directory__card-description {
+    font-size: 0.875rem;
+  }
+
+  .ai-pim-docs-directory__learn-more {
+    font-size: 1rem;
+  }
+}

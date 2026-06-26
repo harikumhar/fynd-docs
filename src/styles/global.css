@@ -158,6 +158,30 @@ button:disabled {
   color: #101319;
 }
 
+.fynd__button-primary-light {
+  border-color: #ffffff;
+  background: #ffffff;
+  color: #101319;
+}
+
+.fynd__button-primary-light:hover {
+  border-color: #d5d6d8;
+  background: #d5d6d8;
+  color: #101319;
+}
+
+.fynd__button-secondary-light {
+  border-color: #e3e3e3;
+  background: transparent;
+  color: #ffffff;
+}
+
+.fynd__button-secondary-light:hover {
+  border-color: #ffffff;
+  background: rgba(255, 255, 255, 0.14);
+  color: #ffffff;
+}
+
 img,
 picture,
 video,
