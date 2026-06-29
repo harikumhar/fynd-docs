@@ -28,3 +28,33 @@ export const commercePageMetadata: PageMetadataConfig = {
   appleTouchIconUrl:
     'https://cdn.pixelbin.io/v2/nameless-waterfall-bf6e98/original/Fynd_one/Doc_Images/033_693a7b4836076b50497a67bd_webclip.png',
 };
+
+export const aiPimDocsPageMetadata: PageMetadataConfig = {
+  title: 'AI PIM Docs',
+  description:
+    'First time setup, management, configuration and user guide for all information related to PIM',
+  author: 'Fynd Partners',
+  canonicalUrl: 'https://partners.fynd.com/g/ai-pim-docs',
+  ogUrl: 'https://docs.fynd.com/g/ai-pim-docs/',
+  ogImage:
+    'https://cdn.pixelbin.io/v2/nameless-waterfall-bf6e98/original/Fynd_one/Doc_Images/094_69707f85a858512770829f80_f18fb70fd460cead7be2e375cacb3ebf_open-image.jpg',
+  faviconUrl:
+    'https://cdn.pixelbin.io/v2/nameless-waterfall-bf6e98/original/Fynd_one/Doc_Images/032_693a7b4472f9259bd2fb18f4_fynd.png',
+  appleTouchIconUrl:
+    'https://cdn.pixelbin.io/v2/nameless-waterfall-bf6e98/original/Fynd_one/Doc_Images/033_693a7b4836076b50497a67bd_webclip.png',
+};
+
+export const konnectPageMetadata: PageMetadataConfig = {
+  title: 'Konnect Developer Portal',
+  description:
+    'Streamline e-commerce with Fynd Konnect. Manage catalogs, inventory, orders, and integrations with leading marketplaces and systems effortlessly.',
+  author: 'Fynd Partners',
+  canonicalUrl: 'https://partners.fynd.com/g/konnect',
+  ogUrl: 'https://docs.fynd.com/g/konnect/',
+  ogImage:
+    'https://cdn.pixelbin.io/v2/nameless-waterfall-bf6e98/original/Fynd_one/Doc_Images/094_69707f85a858512770829f80_f18fb70fd460cead7be2e375cacb3ebf_open-image.jpg',
+  faviconUrl:
+    'https://cdn.pixelbin.io/v2/nameless-waterfall-bf6e98/original/Fynd_one/Doc_Images/032_693a7b4472f9259bd2fb18f4_fynd.png',
+  appleTouchIconUrl:
+    'https://cdn.pixelbin.io/v2/nameless-waterfall-bf6e98/original/Fynd_one/Doc_Images/033_693a7b4836076b50497a67bd_webclip.png',
+};
